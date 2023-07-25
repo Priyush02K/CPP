@@ -1,0 +1,37 @@
+//count the   number of occcurrences of particular element x.
+
+#include <iostream>
+#include <vector>
+using namespace std;
+int main(){
+
+vector<int> v(6);
+
+for (int i = 0; i <v. sixe(); i++)
+{
+    cin>>v[i];
+}
+
+cout<<"ente the X:";
+int x;
+cin>>x;
+
+
+int occreance=0;
+
+for (int ele:v){
+    if (ele==x)
+    {
+      occreance++;
+    }
+    
+}
+cout<<occreance<<endl;
+
+  return 0;
+
+
+   
+}
+
+
